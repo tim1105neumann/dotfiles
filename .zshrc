@@ -110,6 +110,7 @@ alias gst="git status"
 alias jd="cd Documents/Development/JavaDevelopment"
 alias vi=nvim
 alias .="cd .."
+alias potfile="cd /opt/homebrew/Cellar/hashcat/7.1.2/share/hashcat"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
