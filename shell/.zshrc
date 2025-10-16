@@ -107,7 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gst="git status"
-alias jd="cd Documents/Development/JavaDevelopment"
 alias vi=nvim
 alias .="cd .."
 alias potfile="cd /opt/homebrew/Cellar/hashcat/7.1.2/share/hashcat"
@@ -130,6 +129,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
 
 # Added by Windsurf
 export PATH="/Users/jaegerndorferfan/.codeium/windsurf/bin:$PATH"
@@ -137,4 +137,5 @@ export PATH="/Users/jaegerndorferfan/.codeium/windsurf/bin:$PATH"
 fpath=(/Users/jaegerndorferfan/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
+export PATH="/Applications/Docker.app/Contents/Resources/bin:$PATH"
 # End of Docker CLI completions

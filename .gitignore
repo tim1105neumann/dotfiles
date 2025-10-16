@@ -1,0 +1,17 @@
+# --- System / Tools ---
+.config/github-copilot/
+.config/configstore/
+.config/iterm2/
+.config/wireshark/
+.config/Autodesk/
+.config/colima/
+.config/orbstack/
+
+# --- Logs & Cache ---
+.config/btop/btop.log
+.config/*/*.log
+.config/*/*/cache/
+.config/*/*/logs/
+.config/*/*/sessions/
+
+.DS_Store
