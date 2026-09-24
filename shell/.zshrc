@@ -110,6 +110,14 @@ alias gst="git status"
 alias vi=nvim
 alias .="cd .."
 alias potfile="cd /opt/homebrew/Cellar/hashcat/7.1.2/share/hashcat"
+alias l="eza -la"
+alias ping=gping
+alias c=clear
+alias cd=z
+alias cat=bat
+alias update="brew update"
+alias upgrade="brew upgrade"
+alias weather="curl wttr.in"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -139,3 +147,14 @@ autoload -Uz compinit
 compinit
 export PATH="/Applications/Docker.app/Contents/Resources/bin:$PATH"
 # End of Docker CLI completions
+eval "$(zoxide init zsh)"
+
+printf '\e[H\e[2J\e[3J'
+sleep 0.05
+figlet -w 200 "Welcome    back,  Tim !" | lolcat
+fastfetch
+
+# Added by Antigravity
+export PATH="/Users/jaegerndorferfan/.antigravity/antigravity/bin:$PATH"
+
+source "$HOME/.local/bin/env"

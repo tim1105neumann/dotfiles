@@ -3,67 +3,186 @@ tap "dracula/install"
 tap "epk/epk"
 tap "jesseduffield/lazygit"
 tap "krishkrosh/apps"
+tap "zqxwce/tap"
+# Record and share terminal sessions
 brew "asciinema"
+# Aquarium animation in ASCII art
+brew "asciiquarium"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Console Bonsai is a bonsai tree generator, written in C using ncurses
 brew "cbonsai"
+# Versatile and fast Unicode/ASCII/ANSI graphics renderer
 brew "chafa"
+# Create and view interactive cheat sheets for *nix commands
 brew "cheat"
+# Cross-platform make
 brew "cmake"
+# Console Matrix
 brew "cmatrix"
+# Container runtimes on MacOS (and Linux) with minimal setup
 brew "colima"
+# Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
+# Pack, ship and run any application as a lightweight container
 brew "docker"
+# Modern, maintained replacement for ls
 brew "eza"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# Banner-like program prints strings as ASCII art
+brew "figlet"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# Interact with Google Gemini AI models from the command-line
 brew "gemini-cli"
+# GitHub command-line tool
+brew "gh"
+# Multi-platform software reverse engineering framework
+brew "ghidra"
+# Distributed revision control system
 brew "git"
+# Small git utilities
 brew "git-extras"
+# Render markdown on the CLI
 brew "glow"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Ping, but with a graph
 brew "gping"
+# World's fastest and most advanced password recovery utility
 brew "hashcat"
+# Post-modern modal text editor
 brew "helix"
+# Simple terminal UI for git commands
 brew "lazygit"
+# Rainbows and unicorns in your console!
+brew "lolcat"
+# Show markdown documents on text terminals
 brew "mdcat"
+# Open source relational database management system
 brew "mysql-client"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# RSS/Atom feed reader for text terminals
 brew "newsboat"
+# Tiny, lightning fast, feature-packed file manager
 brew "nnn"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node@24"
+# Renders an animated, color, ANSI-text loop of the Poptart Cat
+brew "nyancat"
+# Animated pipes terminal screensaver
 brew "pipes-sh"
+# Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Object-relational database system
 brew "postgresql@18", restart_service: :changed
+# Command-line shell and scripting language
+brew "powershell"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
+# Prints a steam locomotive if you type sl instead of ls
+brew "sl"
+# Cross-shell prompt for astronauts
 brew "starship"
+# Programmatically correct mistyped console commands
 brew "thefuck"
+# Terminal multiplexer
 brew "tmux"
+# Tmux session manager. Built on libtmux
 brew "tmuxp"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Digital clock in ncurses
 brew "tty-clock"
+# Command-line tool for sharing terminal over the web
+brew "ttyd"
+# Cross platform GUI for Maxima
 brew "wxmaxima"
+# Generate your Xcode project from a spec file and your folder structure
+brew "xcodegen"
+# Blazing fast terminal file manager written in Rust, based on async I/O
 brew "yazi"
+# Shell extension to navigate your filesystem faster
 brew "zoxide"
-brew "ddev/ddev/ddev"
+# GPU-accelerated terminal emulator
 cask "alacritty"
+# Agent orchestration platform
+cask "antigravity"
+# 3D model slicing software for 3D printers, maintained by Bambu Lab
 cask "bambu-studio"
+# Free and open-source web browser
 cask "chromium"
+# Anthropic's official Claude AI desktop app
+cask "claude"
+# Terminal-based AI coding assistant
 cask "claude-code"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# Brings the power of Copilot coding agent directly to your terminal
+cask "copilot-cli"
+# Download and manage your addons and mods
 cask "curseforge"
+# Utilities designed to make common development tasks easier
 cask "devtoys"
 cask "dracula-xcode"
+# Online diagram software
 cask "drawio"
 cask "font-dejavu"
-cask "font-sf-mono-nerd-font"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Xcode extension for GitHub Copilot
+cask "github-copilot-for-xcode"
+# Git client focusing on productivity
+cask "gitkraken"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Password manager application and digital vault
+cask "keeper-password-manager"
+# Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Spreadsheet software
+cask "microsoft-excel"
+# Digital note taking app
+cask "microsoft-onenote"
+# Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Word processor
+cask "microsoft-word"
+# Open-source software for live streaming and screen recording
 cask "obs"
+# Replacement for Docker Desktop
 cask "orbstack"
+# Collaborative SQL editor
+cask "popsql"
 cask "powershell"
+# Drag & drop GUI designer for JavaFX
 cask "scenebuilder"
+# Music streaming service
+cask "spotify"
+# Real time file synchronisation software
 cask "syncthing-app"
+# Terminal emulator, SSH and serial client
 cask "tabby"
+# Messaging app with a focus on speed and security
+cask "telegram"
+# LaTeX editor
+cask "texifier"
 cask "trackweight"
+# Virtual machines UI using QEMU
+cask "utm"
+# Virtualiser for arm64 hardware
 cask "virtualbox"
+# GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "wezterm"
+# Native desktop client for WhatsApp
+cask "whatsapp"
+# Administration tool for MikroTik RouterOS
+cask "winbox"
+uv "graphifyy"
+npm "instagram-clii"
